@@ -1,32 +1,4 @@
-# Organizing algorithmsin määrittelydokumentti
-
- 
-Tässä harjoitustyössä on tarkoituksena toteuttaa eri järjestämisalgoritmeja ja verratana niiden suorituksia eri syötteillä.
-Siis toisin sanoen toteuttaa itse erilaisia järjestämisalgoritmeja, teen eempiiriset reaalisuoritusaikojen mittaukset eri algoritmeille erikokisilla syötteillä ja teen myös teoreettisen" aikavaativusanalyysin sekä ekstrana myöskin tilavaativuuden.
-
-
-
-Työssä tehdään erilaisia algoritmeja ja valmiita tietorakenteita käytetään vaan aivan "alkukantaisempia" (mitä ilman ei saa mitään aikaseksi).
-Yksinkertaisesti varsinaisesti mitään algoritmeja ei ole valittu ongelman ratkaisemiseen vaan itse algoritmien toteuttaminen ja niiden "tutkiminen" on itse "ongelmana".
-
-Pyrkimys on saada jokaissessa algoritmin toteutksessa mahdollisimman optimaalinen toteutus(tai ainakin tarpeeksi tehokas), jotta vakio aikavaativuusvakio olisi mahdollisimman pieni ja tietenkin aikavaativuusluokka (tärkein, erityisesti suurimmilla syötteillä) tulee olemaan täsmälleen algoritmin aikavaativuusluokkka.
-
-Mitä tulee tilavaativuuteen, niin algoritmien tilavaativuus on se mitä "niiden kuuluisi olla2.
-
-
-Syötteinä tulee olemaan erikokoisia 32-bittisiä kokonaislukuja siältäviä taulukoita, joita on järjestettävä. (Jotkut algoritmit voivat tosiaan myös järjestää muutakin kun lukuja, jos on määritelty jonkinkinlainen järjestyssehto.)
-Toteutus on tehty (tulee olemaan tehty), niin että syötteet on tiedostona ja tulokset kirjoitetaan tiedostoksi.
-
-
-Toteutettavia apurakenteita: Keko (jälkeenpäin), ArrayList (ei pakollinen, mutta varmaan kannattavaa). Ei muita tarvita varmaan.
-
-
-Lähteet: (ei ole lopullinen) Eri artikkeleita (englanninkielisia) näistä algoritmeista sekä TiRan luentomonisteesta jotain.
-
-
-## Aika- sekä tilavaativuusanalyysit (huomioi, että tässä projektissa tämä löytyy myös kansiossa "algoritmien tulokset", koska on pakollinen algoritmien oikean vertailun takia):
-(Kuten aina huonoin tapaus on pitkälti tärkein vertailessa, mutta ei yksinään kerro välttämättä paljoakaan silti. Pelkästään suuntaa antavaa, vakiot voivat poiketa todella suuresti ja tapauksien luokkien, esim. paras tai huonoin, voi vaihdella suuresti)
-Huomio: Tässä ei ole vielä kaikkia algoritmeja, sillä niitä riittää enkä toteuta kaikkia.
+# Algoritmien aikavaativuusanalyysit (sekä tilavaativuus)
 
 ### Bubble sort:
   Paras tapaus: n		Ainoastaan jos lista jo järjestyksessä.

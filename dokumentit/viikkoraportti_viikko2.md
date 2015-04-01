@@ -1,5 +1,5 @@
- 
-Viikko 2
+# Viikko 2
+
 
 Aivan ensiksi tämän viikon aikana palautin mieleen projektiin liittyvät asiat ja loin github-repon sekä tein muut tarvittavat asiat kurssin kannalta (aloitin toki liian myöhään).
 Sen jälkeen luin läpi mitä eri järjestelemisalgoritmeja on (kertasin mitä erillaisia niitä on) sekä tein määrittelydokumentin, missä käy ilmi mitä tullaan harjoitustyössä tekemään.

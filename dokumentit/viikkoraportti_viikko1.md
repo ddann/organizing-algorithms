@@ -1,5 +1,5 @@
-
-Viikko 1 (erittäin tynkkä raportti koska projektia ei ole yhtään tällä viikolla tehty oikeastaan)
+# Viikko 1
+(erittäin tynkkä raportti koska projektia ei ole yhtään tällä viikolla tehty oikeastaan)
 
 
 Tällä viikolla ei ole itse projektia mitenkään tehty, vaan ainoastaan alkutapaaminen ohjaajan kanssa ja valittu aihe.
