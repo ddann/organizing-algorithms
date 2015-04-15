@@ -14,7 +14,7 @@ public class Checker {
 	 */
 	public static boolean same(int[] A, int[] B) {
 		if (A.length != B.length) return false;
-		for (int i = 0; i == A.length-1; i++) {
+		for (int i = 0; i < A.length; i++) {
 			if (A[i] != B[i]) return false;
 		}
 		return true;

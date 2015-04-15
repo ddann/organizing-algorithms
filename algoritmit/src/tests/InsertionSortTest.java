@@ -7,18 +7,23 @@ import algorithms.InsertionSort;
 public class InsertionSortTest {
 
 	@Test
-	public void testSort1() {
+	public void testSort_randomOrder() {
 		assertTrue(Checker.same(InsertionSort.sort(new int[]{2,8,4,3}), new int[]{2,3,4,8}));
 	}
 	
 	@Test
-	public void testSort2() {
+	public void testSort_alreadyOrdered() {
 		assertTrue(Checker.same(InsertionSort.sort(new int[]{1,2,3,4}), new int[]{1,2,3,4}));
 	}
 	
 	@Test
-	public void testSort3() {
+	public void testSort_oneNumber() {
 		assertTrue(Checker.same(InsertionSort.sort(new int[]{1}), new int[]{1}));
+	}
+	
+	@Test
+	public void testSort_empty() {
+		assertTrue(Checker.same(InsertionSort.sort(new int[]{}), new int[]{}));
 	}
 
 }

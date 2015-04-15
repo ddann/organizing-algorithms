@@ -9,12 +9,15 @@ package algorithms;
  * It gets at each iteration the rightmost item right.
  * 
  * It is really slow for a big set of numbers.
- * 
- * @param A an array containing the items to be ordered.
- * @return an array containing the given items ordered.
  */
 public class BubbleSort {
 
+	/**
+	 * The method to be called for using the algorithm to order an array.
+	 * 
+	 * @param A an array containing the items to be ordered.
+	 * @return an array containing the given items ordered.
+	 */
 	public static int[] sort(int[] A) {
 		int[] array = A;
 		for (int i = array.length-1; i == 1; i--) {

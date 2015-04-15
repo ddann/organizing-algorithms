@@ -19,7 +19,7 @@ public class Main {
 	
 	
 	public static void main(String[] args) {
-		//TODO Implementation to be able to use the classes + read the data (just calling loadInput).
+		//TODO Implementation to be able to use the classes + read the data (just calling loadInput?).
 	}
 
 	
@@ -38,6 +38,9 @@ public class Main {
 		scanner.close();
 	}
 	
+	/**
+	 * Not in use for the project actually.
+	 */
 	private void saveOutput(int[] output) {
 		try {
 			PrintWriter writer = new PrintWriter(input);
