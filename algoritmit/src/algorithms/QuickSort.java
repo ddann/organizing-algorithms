@@ -1,3 +1,4 @@
+ 
 package algorithms;
 
 /**
@@ -41,17 +42,18 @@ public class QuickSort {
 	}
 	
 	private static int partition(int[] A, int lo, int hi) {
-	     int pivotIndex = (lo +hi)/2;
-	     int pivotValue = A[pivotIndex];
+	     int pivotIndex = (lo +hi)/2; //The middle of the array
+	     int pivotValue = A[pivotIndex]; //Choosing just the middle isn't the most efficient way but yet it is very simple.
 	     
-	     //swaps A[pivotIndex] and A[hi-1]
+	     //swaps A[pivotIndex] and A[hi], after this it is possible to make right the sub-arrays.
 		 int a = A[pivotIndex];
 	     A[pivotIndex] = A[hi-1];
 	     A[hi-1] = a;
 	     
-	     int storeIndex = lo;
-	     for (int i=lo; i < hi -1; i++) {
-	         if (A[i] < pivotValue) {
+	     int storeIndex = lo-1;
+	     // Compares each element against the pivotValue and change places accordingly.
+	     for (int i=lo-1; i < hi-1; i++) {
+	         if (A[i] <= pivotValue) {
 	             //swaps A[i] and A[storeIndex]
 	        	 a = A[storeIndex];
 	        	 A[storeIndex] = A[i];
@@ -60,7 +62,8 @@ public class QuickSort {
 	             storeIndex = storeIndex + 1;
 	         }
 	    }
-	    //swaps A[storeIndex] and A[hi-1]
+	     
+	    //swaps A[storeIndex] and A[hi-1] an the pivot is in it's right place.
 		 a = A[storeIndex];
 	     A[storeIndex] = A[hi-1];
 	     A[hi-1] = a;

@@ -17,6 +17,11 @@ public class BubbleSortTest {
 	}
 	
 	@Test
+	public void testSort_reverseOrder() {
+		assertTrue(Checker.same(BubbleSort.sort(new int[]{20,10,5,0}), new int[]{0,5,10,20}));
+	}
+	
+	@Test
 	public void testSort_oneNumber() {
 		assertTrue(Checker.same(BubbleSort.sort(new int[]{1}), new int[]{1}));
 	}

@@ -1,7 +1,9 @@
 package tests;
 
 import static org.junit.Assert.*;
+
 import org.junit.Test;
+
 import algorithms.InsertionSort;
 
 public class InsertionSortTest {
@@ -14,6 +16,11 @@ public class InsertionSortTest {
 	@Test
 	public void testSort_alreadyOrdered() {
 		assertTrue(Checker.same(InsertionSort.sort(new int[]{1,2,3,4}), new int[]{1,2,3,4}));
+	}
+	
+	@Test
+	public void testSort_reverseOrder() {
+		assertTrue(Checker.same(InsertionSort.sort(new int[]{20,10,5,0}), new int[]{0,5,10,20}));
 	}
 	
 	@Test

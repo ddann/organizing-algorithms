@@ -21,6 +21,8 @@ Kurssiivilla testiluokassa käytetyt testSort_xxx:n nimet.
 
 * *Already ordered*: Neljä lukua (1,2,3,4), jotka jo järjestetty ja algoritmi pitäis palauttaa sellaisenaan.
 
+* *Reverse order* Neljä lukua (20, 10, 5, 0), jotka ovat käänteisessä järjestyksessä.
+
 * *One number*: Yksinkertaisesti ykkönen, joka pitäisi nyt palautua ykkösena takaisin.
 
 * *Empty*: Tyhjä lista. Testataan, että sellaiset algoritmit, jotka "toimivat" (eivät kaadu) tyhjälle listalle tosiaan tekevät niin.

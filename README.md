@@ -14,5 +14,8 @@ Ei algoritmit samassa projektissa eri luokkina kansion algoritmit alla.
 Algoritmien kuvaukset ovat javadoccina. (Ei ole mukana historiaa siitä eikä muuta sellaista tietenkään.)
   
   
-PS. Scriptit on kirjoitettu kokonaan englanniksi.
-Ja kaikki algoritmien metodit ovat staattisia, ei ole ehkä tavallista java-projektille, mutta koska (algoritmien) luokkia käytetään vain suorittamaan sen yksittäisen metodin on tämä paras toteutus.
+PS. Scriptit on kirjoitettu kokonaan englanniksi.  
+Ja kaikki algoritmien metodit ovat staattisia, ei ole ehkä tavallista java-projektille, mutta koska (algoritmien) luokkia käytetään vain suorittamaan sen yksittäisen metodin on tämä paras toteutus.  
+  
+**/Algoritmit/readme.md** löytyy "tärkeä huomio" kohdassa kysymys, joka askarruttaa tehokkuustestauksen suhteen.  
+Pitää tarkastaa mitä tehdä asialle.

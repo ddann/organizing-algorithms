@@ -2,7 +2,6 @@ package tests;
 
 import static org.junit.Assert.*;
 
-
 import org.junit.Test;
 
 import algorithms.MergeSort;
@@ -17,6 +16,11 @@ public class MergeSortTest {
 	@Test
 	public void testSort_alreadyOrdered() {
 		assertTrue(Checker.same(MergeSort.sort(new int[]{1,2,3,4}), new int[]{1,2,3,4}));
+	}
+	
+	@Test
+	public void testSort_reverseOrder() {
+		assertTrue(Checker.same(MergeSort.sort(new int[]{20,10,5,0}), new int[]{0,5,10,20}));
 	}
 	
 	@Test

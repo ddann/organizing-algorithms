@@ -10,7 +10,8 @@ Tämä johtuu prjektin luonteesta (jos ei olisi näin, sitten olisi jotain tehty
 Vertailut (sekä tulokset) eri algoritmeista (siis analyysit) löytyvät kansiosta *algoritmien tulokset*. (Sekä analyysit kopioituna määrittelydokmentissa, koska tavoite ja saavutettu on tietenkin sama.)  
   
 Mitään puuteitta ei oikeasti projektissa ole suoraan, mutta tietenkin tässä vertaillaan vain osaa eri algoritmeista.  
-Ja sitten on vielä tietenkin se puoli, että tuloksiin vaikuttaisi (riippuen tilanteesta) käytetty prosessori ja käytössä oleva muisti ja mahdollinen swappi, mutta nämä on jätetty tietenkin huomiotta eikä vaikutus ole muutenkan merkittävä (yleensä).  
+Ja ehkä myös voisi huomioida/toteutettaa eri versiot (optimoidut ja ei optimoidut) eri algoritmeissa testaakseen tehokkuuseroja. Toki nämä erot on lähes kaikilla algoritmeilla melkoisen mitättömät.  
+Ja sitten on vielä tietenkin se puoli, että tuloksiin vaikuttaisi (riippuen tilanteesta) käytetty prosessori ja käytössä oleva muisti sekä mahdollinen swappi, mutta nämä on jätetty tietenkin huomiotta eikä vaikutus ole muutenkan merkittävä (yleensä).  
   
   
 Ps. Näemmäs myöskin se, että millä kielelllä on toteutettu, tässä nyt Java, vaikuttaa vertailutuloksiin, muttei varmaan merkittävästi.
