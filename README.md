@@ -19,3 +19,7 @@ Ja kaikki algoritmien metodit ovat staattisia, ei ole ehkä tavallista java-proj
   
 **/Algoritmit/readme.md** löytyy "tärkeä huomio" kohdassa kysymys, joka askarruttaa tehokkuustestauksen suhteen.  
 Pitää tarkastaa mitä tehdä asialle.
+  
+**introsortista** Siinä on koodia mitä en ole itse kirjoittanut, sillä omani quick sortin partition ei toiminut sen kanssa, enkä viittinyt tehdä toisen pelkästään introsortille tietämättä toimisiko sekään. (Varmaan tekemäni implementaatiot poikkeavat tavallisesta...)  
+Sekä login implementaatio, joka on todella yksinkertainen. (Se käyttää hyväkseen Integer.numberOfLeadingZeros(n):a)
+Varmaan on OK käyttää näitä hyväkseen kun kertoo sen ettei ole itse tehnyt näitä itse.

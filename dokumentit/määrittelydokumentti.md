@@ -18,7 +18,7 @@ Syötteinä tulee olemaan erikokoisia 32-bittisiä kokonaislukuja siältäviä t
 Toteutus on tehty, niin että syötteet on tiedostona ja tulokset kirjoitetaan tiedostoksi.
   
   
-Toteutettavia apurakenteita: Keko (jälkeenpäin), ArrayList (ei pakollinen, mutta varmaan kannattavaa). Ei muita tarvita varmaan.  
+Toteutettuja apurakenteita: Keko (osana heap sorttia). Ei muita tarvita varmaan.  
   
   
 Lähteet: (jokaiselle algoritmille erikseen, en kyllä vahingossa laittanut ylös milloin katsoin wikipediasta, mikä olisi tärkeää...)  
@@ -72,8 +72,8 @@ Tosin riippumatta syötteen sisällön järjestyksestä, niin aikavaativuus on a
 * Keskiverto: n²  
 * Tilavaativuus: 1  
 
-### Introsort (itseasiassa se on hybriidi, joka käyttää hyväkseen Heapsortia ja Quicksortia): Ei tehty
-Huomio: Riippuu siitä miten järjestettävä käyttäytyy Heapsortin ja Quicksortin kanssa. Painottuu Quicksortiin.  
+### Introsort (itseasiassa se on hybriidi, joka käyttää hyväkseen Heapsortia ja Quicksortia):
+Huomio: Riippuu siitä miten järjestettävä käyttäytyy Heapsortin ja Quicksortin kanssa. Painottuu Quicksortiin (mitä lyhyempi lista sitä enemmän).  
 * Paras tapaus: n*logn  
 * Huonoin: n*logn  
 * Keskiverto: n*logn  
