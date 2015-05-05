@@ -8,9 +8,8 @@ package algorithms;
 public class IntroSort {
 
 	public static int [] sort(int[] A) {
-		int maxdepth = log2(A.length) * 2;//let maxdepth = ⌊log(length(A))⌋ × 2
+	    int maxdepth = log2(A.length) * 2;
 	    introsort(A, maxdepth);
-	    System.out.println(A[0]+" "+ A[1]+" "+ A[2]+" " +A[3]);
 	    return A;
 	}
 
@@ -23,8 +22,7 @@ public class IntroSort {
 	        HeapSort.sort(A, A.length);
 	    }
 	    else {
-	    	//TODO something is wrong here!
-	        int p = partition(A, 1, A.length);  //TODO Not sure about this.
+	        int p = partition(A, 1, A.length);
 	        
 	        //The below makes two "sliced arrays" from the original.
 	        int[] B = new int[p];
