@@ -6,6 +6,10 @@ import org.junit.Test;
 
 import algorithms.InsertionSort;
 
+/**
+ * A test-class for testing the InsertionSort-class.
+ * It tests that the class sorts right the given array.
+ */
 public class InsertionSortTest {
 
 	@Test

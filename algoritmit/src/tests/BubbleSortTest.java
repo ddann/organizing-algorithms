@@ -4,6 +4,10 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 import algorithms.BubbleSort;
 
+/**
+ * A test-class for testing the BubbleSort-class.
+ * It tests that the class sorts right the given array.
+ */
 public class BubbleSortTest {
 	
 	@Test

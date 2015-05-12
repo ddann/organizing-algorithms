@@ -45,7 +45,7 @@ public class QuickSort {
 	     int pivotIndex = (lo +hi)/2; //The middle of the array
 	     int pivotValue = A[pivotIndex]; //Choosing just the middle isn't the most efficient way but yet it is very simple.
 	     
-	     //swaps A[pivotIndex] and A[hi], after this it is possible to make right the sub-arrays.
+	     //swaps A[pivotIndex] and A[hi-1], after this it is possible to make right the sub-arrays.
 		 int a = A[pivotIndex];
 	     A[pivotIndex] = A[hi-1];
 	     A[hi-1] = a;

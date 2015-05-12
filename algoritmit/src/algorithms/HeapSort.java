@@ -7,24 +7,27 @@ package algorithms;
  * Because of this it is usually used for big data inputs for efficiency and security as well as because for being an in-place
  * algorithm in embedded systems with real-time constraints or systems concerned with security.
  * 
+ * There is neither optimizations nor variants. This is the standard slightly faster implementation (that uses siftDown instead of siftUp).
+ * 
  * 
  * Shortly it works as follows;
  * It divides the input into a sorted and an unsorted region, and it iteratively shrinks the unsorted region
  * by extracting the largest element and moving that to the sorted region. The heap data structure improves its efficiency.
- * 
- * And step by step:
- * It can be divided into two parts:
- * WIKIPEDIA KOPIOO PITKÄLTI!:
- * In the first step, a heap is built out of the data. The heap is placed in an array with the layout of a complete binary tree.
- * The complete binary tree maps the binary tree structure into the array indices; each array index represents a node; the index of the
- * node's parent, left child branch, or right child branch are simple expressions. The root node is stored at index 0;
- * i is here the index of the current node:
- *   iParent     = floor((i-1) / 2)
+ *
+ *
+ * And step by step (divided into two bigger parts):
+ * At the first step, a heap is built based on the data. The heap is placed in an array using the layout of a complete binary tree.
+ * The complete binary tree (the idea of it) maps the binary tree structure into the array indices: each array index represents a node; the index of the
+ * node's parent, left child branch, or right child branch are simple expressions that aren't stored only calculated when needed. The root node is stored 
+ * at index 0;
+ * How it calculates the "relatives" (i is here the index of the current node):
+ *   iParent     = (i-1) / 2
  *   iLeftChild  = 2*i + 1
  *   iRightChild = 2*i + 2
+ *
  * In the second step, a sorted array is created by repeatedly removing the largest element from the heap (the root of the heap), and inserting it
- * into the final sorted array to be returned. The heap is updated after each removal to maintain the heap correct.
- * Once all objects have been removed from the heap, the array to be returned is sorted.
+ * into the final sorted array to be returned. The heap is updated after each removal to maintain the heap correct (that is the formation is always a complete binary tree).
+ * Once all objects have been removed from the heap, it returns a sorted array.
  * 
  */
 public class HeapSort {

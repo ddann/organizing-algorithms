@@ -6,6 +6,10 @@ import org.junit.Test;
 
 import algorithms.HeapSort;
 
+/**
+ * A test-class for testing the HeapSort-class.
+ * It tests that the class sorts right the given array.
+ */
 public class HeapSortTest {
 
 	@Test

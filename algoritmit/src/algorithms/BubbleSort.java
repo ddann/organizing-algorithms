@@ -2,6 +2,7 @@ package algorithms;
 
 /**
  * The most simple and less efficient (as being a senseful solution) of the sorting algorithms.
+ * 
  * This is the unoptimized version (Optimizing adds a "n = n-1;" after "swapped =true;" and the 
  * difference is about less than half in efficiency.)
  * 

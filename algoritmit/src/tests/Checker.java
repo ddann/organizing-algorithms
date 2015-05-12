@@ -2,7 +2,7 @@ package tests;
 
 /**
  * A class for being used by the algorithms' test classes.
- * Actually it is somehow strange to it to be in the "tests" package, but is only used by the test classes and for testing. (It is part of the tests)
+ * Actually it is somehow strange for this to be in the "tests" package, but is only used by the test classes and for testing. (So it is part of the tests.)
  */
 public class Checker {
 

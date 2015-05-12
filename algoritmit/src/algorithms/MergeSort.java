@@ -2,8 +2,8 @@ package algorithms;
 
 /**
  * Merge sort is an O(n log n) relatively efficient comparison-based sorting algorithm.
- * There's many ways to implement the algorithm and this is neither the original nor the most efficent,
- * thought the difference in efficacy between (senceful) implementation is minimal.
+ * There's many ways to implement the algorithm and this is neither completely the original nor 
+ * the most efficient, thought the difference in efficiency between (senceful) implementation is minimal.
  * 
  * It is a divide and conquer algorithm and against "more complex" algorithms like merges sort
  * itself it is usually slower and/or requires more auxiliary memory.
@@ -51,7 +51,7 @@ public class MergeSort {
 	    R = sort(R);
 			
 	    //Merges this call's created sublists.
-		return merge(sort(L),sort(R));
+		return merge(L, R);
     }
 	
 	private static int[] merge(int[] L, int[] R) {

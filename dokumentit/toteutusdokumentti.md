@@ -12,6 +12,7 @@ Vertailut (sekä tulokset) eri algoritmeista (siis analyysit) löytyvät kansios
 Mitään puuteitta ei oikeasti projektissa ole suoraan, mutta tietenkin tässä vertaillaan vain osaa eri algoritmeista.  
 Ja ehkä myös voisi huomioida/toteutettaa eri versiot (optimoidut ja ei optimoidut) eri algoritmeissa testaakseen tehokkuuseroja. Toki nämä erot on lähes kaikilla algoritmeilla melkoisen mitättömät.  
 Ja sitten on vielä tietenkin se puoli, että tuloksiin vaikuttaisi (riippuen tilanteesta) käytetty prosessori ja käytössä oleva muisti sekä mahdollinen swappi, mutta nämä on jätetty tietenkin huomiotta eikä vaikutus ole muutenkan merkittävä (yleensä).  
+Ja voisi tehdä niin, että testatus luokka käyttäisi listoja ja niiden tietoja "dynaamisesti": Siis mikä vaan lista kelpaa, jos vain siitä olisi tietoa jossain tiedostossa.
   
   
 Ps. Näemmäs myöskin se, että millä kielelllä on toteutettu, tässä nyt Java, vaikuttaa vertailutuloksiin, muttei varmaan merkittävästi.

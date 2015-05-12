@@ -1,14 +1,19 @@
 package tests;
 
-import static org.junit.Assert.*;
+import main.Main;
 
 import org.junit.Test;
 
+/**
+ * This isn't actually a test class that would test anything.
+ *
+ * This could be used to test if it would define the inputs before calling Main.main() and would test the class' output.
+ */
 public class MainTest {
 
 	@Test
-	public void testMain() {
-		fail("Not yet implemented");
+	public void test() {
+		Main.main(null);
 	}
 
 }

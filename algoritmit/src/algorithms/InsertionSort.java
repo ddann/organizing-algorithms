@@ -2,15 +2,15 @@ package algorithms;
 
 /**
  * The Insertion sort is a simple sorting algorithm that makes the ordered list by sorting one item at a time.
- * 
  * It is inefficient for big sets but for small sets it is relatively fast.
+ * 
  * This is the optimized version that is slightly faster than the original.
+ * This version simply instead of the original moves A[i] to its corresponding position in one go and so only 
+ * performs one assignment in the inner loop body (the 'while-loop'). 
  * 
  * It simply goes from left to right (smaller to bigger) and swaps places between items until one point, that at each iteration increases,
  * and so the part that has already been ordered before (or the initial) contains the new item in the correct place.
  * It does it by moving (swapping) the needed items to the right.
- * 
- * This is a slightly faster version than the original.
  */
 public class InsertionSort {
 	
@@ -27,8 +27,8 @@ public class InsertionSort {
 		    
 		    //The below shifts positions so that the smallest element of this run ends up being at it's corresponding place.
 		    while (j > 0 && A[j-1] > a) {
-    	        A[j] = A[j-1];
-    	        j = j - 1;
+			A[j] = A[j-1];
+			j = j - 1;
 		    }
 		    A[j] =a;
 		}

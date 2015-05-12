@@ -6,6 +6,10 @@ import org.junit.Test;
 
 import algorithms.MergeSort;
 
+/**
+ * A test-class for testing the MergeSort-class.
+ * It tests that the class sorts right the given array.
+ */
 public class MergeSortTest {
 
 	@Test

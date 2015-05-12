@@ -6,6 +6,10 @@ import org.junit.Test;
 
 import algorithms.SelectionSort;
 
+/**
+ * A test-class for testing the SelectionSort-class.
+ * It tests that the class sorts right the given array.
+ */
 public class SelectionSortTest {
 
 	@Test

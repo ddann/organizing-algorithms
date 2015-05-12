@@ -1,0 +1,16 @@
+'1' for list with 10 random numbers in random order.
+'2' for list with 100 random numbers in random order.
+'3' for list with 1000 random numbers in random order.
+'4' for list with 10000 random numbers in random order.
+'5' for list with 100000 random numbers in random order.
+'6' for list with 1000000 random numbers in random order.
+'7' for list with 10000000 random numbers in random order.
+'8' for list with 1000 numbers already ordered. Values from 0 to 999.
+'9' for list with 10000 numbers already ordered. Values from 0 to 9999.
+'10' for list with 100000 numbers already ordered. Values from 0 to 99999.
+'11' for list with 1000 numbers in a reverse order. Values from 0 to -999.
+'12' for list with 10000 numbers in a reverse order. Values from 0 to -9999.
+'13' for list with 100000 numbers in a reverse order. Values from 0 to -99999.
+'14' for list with 1000 numers that all are the same. The number is '100'.
+'15' for list with 10000 numers that all are the same. The number is '100'.
+'16' for list with 100000 numers that all are the same. The number is '100'.

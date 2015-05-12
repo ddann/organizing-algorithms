@@ -3,7 +3,9 @@ package algorithms;
 /**
  * Selection sort is a sorting algorithm of in-place comparison sort by type.
  * It is inefficient for large inputs but, however, it is  simple and it has some performance advantages compared to more
- * complex algorithms in some certain situations, particularly if the amount of auxiliar memory is limited.
+ * complex algorithms in some certain situations, particularly if the amount of auxiliary memory is limited.
+ * 
+ * This is the original version of the algorithm. There doesn't exists just simple optimizations for it but only bigger variants.
  * 
  * For what comes to its performance it is always the same, e.g. the order of the numbers in the list does not affect it.
  * This is because of how it orders the list. (Description below)

@@ -6,6 +6,11 @@ import org.junit.Test;
 
 import algorithms.IntroSort;
 
+/**
+ * A test-class for testing the IntroSort-class.
+ * It tests that the class sorts right the given array.
+ * It cannot test an empty array as an input as the algorithm doesn't work with one. (Due to Quicksort.)
+ */
 public class IntroSortTest {
 
 	@Test
